@@ -1,12 +1,12 @@
-name: A workflow to get some GitHub action
+name: A workflow to get some github action
 on: push
 
 jobs:
   build:
-    name: Get some github action
+    name: get some github action
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - uses: ../../action/
+      - uses: ./action
         with:
-          MESSAGE: "GOT SOME GITHUB ACTION"
+          MESSAGE: "GOT SOME GITHUB ACTION."
