@@ -1,3 +1,3 @@
 #!/bin/bash
 
-echo ${MESSAGE}
+sh -c "echo ${MESSAGE}"
