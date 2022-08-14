@@ -1,0 +1,2 @@
+name: A workflow to get some GitHub action
+on: push
