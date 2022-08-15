@@ -1,0 +1,12 @@
+name: "get some github action"
+description: "An action to try getting some github action"
+author: "TakshakRamteke@users.noreply.github.com"
+
+inputs:
+  MESSAGE:
+    description: "Message to print out"
+    required: true
+
+runs:
+  using: "docker"
+  image: "Dockerfile"
