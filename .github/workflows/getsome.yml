@@ -9,4 +9,4 @@ jobs:
       - uses: actions/checkout@v1
       - uses: ./action
         with:
-          MESSAGE: "GOT SOME GITHUB ACTION 🏆"
+          MESSAGE: ${{ secrets.MESSAGE }}
